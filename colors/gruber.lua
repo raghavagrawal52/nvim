@@ -1,13 +1,11 @@
--- gruber-darker.lua
--- Neovim colorscheme ported from gruber-darker-theme.el
--- Original by Jason R. Blevins, adapted by Alexey Kutepov (rexim)
+-- gruber.lua
 
 vim.cmd("hi clear")
 if vim.fn.exists("syntax_on") == 1 then
   vim.cmd("syntax reset")
 end
 
-vim.g.colors_name = "gruber-darker"
+vim.g.colors_name = "gruber"
 vim.o.background = "dark"
 
 local c = {
